@@ -90,13 +90,7 @@
                   </i>
                   <span>Database</span>
                 </a>
-              <li class="sidebar-title">User Database</li>
-              <li class="sidebar-item  <?= $_SERVER["REQUEST_URI"] == "/myproject/public/home/datauser" ? "active" : "" ?>">
-                <a href="<?= base_url('public/home/datauser'); ?>" class='sidebar-link'>
-                  <i class="bi bi-people-fill"></i>
-                  <span>Manajemen User</span>
-                </a>
-              </li>
+              <li class="sidebar-title">Database</li>
               <li class="sidebar-item  <?= $_SERVER["REQUEST_URI"] == "/myproject/public/home/datauser" ? "active" : "" ?>">
                 <a href="<?= base_url('public/home/datauser'); ?>" class='sidebar-link'>
                   <i class="bi bi-people-fill"></i>
