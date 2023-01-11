@@ -1,0 +1,69 @@
+CRITICAL - 2022-12-17 02:29:02 --> Invalid file: dashboard/template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/template', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/Table', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('home/Table')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 02:29:37 --> Invalid file: dashboard/template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/template', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/Table', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('home/Table')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 02:31:37 --> Invalid file: dashboard/template.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/template.php')
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('dashboard/template', [], true)
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/table', [], true)
+ 4 APPPATH\Controllers\Home.php(21): view('home/table')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 04:53:15 --> Invalid file: home/datatable.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/datatable.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/datatable', [], true)
+ 3 APPPATH\Controllers\Home.php(21): view('home/datatable')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 17:40:52 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 19:05:40 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 19:08:29 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-17 20:12:53 --> Invalid file: register/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('register/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('register/index', [], true)
+ 3 APPPATH\Controllers\Login.php(49): view('register/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->register()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

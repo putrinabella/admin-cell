@@ -1,0 +1,732 @@
+CRITICAL - 2022-12-24 18:00:10 --> Undefined variable $operatorM
+in APPPATH\Views\home\transaksiView.php on line 196.
+ 1 APPPATH\Views\home\transaksiView.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $operatorM', 'APPPATH\\Views\\home\\transaksiView.php', 196)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\transaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/transaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(21): view('home/transaksiView')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 18:13:01 --> mysqli_sql_exception: Column 'idPaket' in order clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(35): App\Models\TransaksiModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 18:13:01 --> Column 'idPaket' in order clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksi`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksi`.`idPaket`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksi`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksi`.`idPaket`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksi`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksi`.`idPaket`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksi`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksi`.`idPaket`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\TransaksiModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(35): App\Models\TransaksiModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 18:20:40 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 65.
+ 1 APPPATH\Controllers\Transaksi.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 18:38:52 --> Undefined variable $paketM
+in APPPATH\Views\home\transaksiView.php on line 207.
+ 1 APPPATH\Views\home\transaksiView.php(207): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $paketM', 'APPPATH\\Views\\home\\transaksiView.php', 207)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\transaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/transaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(27): view('home/transaksiView')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 20:04:20 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPak...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPak...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPak...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPak...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-24 20:04:20 --> Unknown column 'name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = :namaPaket:
+ORDER BY `name`', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 20:04:21 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPak...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPak...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPak...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPak...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-24 20:04:21 --> Unknown column 'name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = :namaPaket:
+ORDER BY `name`', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 20:04:22 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPak...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPak...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPak...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPak...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-24 20:04:22 --> Unknown column 'name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = :namaPaket:
+ORDER BY `name`', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 20:04:26 --> mysqli_sql_exception: Unknown column 'name' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPak...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPak...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPak...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPak...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-24 20:04:26 --> Unknown column 'name' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = \'Gokil\'
+ORDER BY `name`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `namaPaket`, `deskripsi`
+FROM `tbltransaksi`
+WHERE `namaPaket` = :namaPaket:
+ORDER BY `name`', [...], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Transaksi.php(109): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->deskripsi()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 20:30:28 --> Undefined array key "draw"
+in APPPATH\Controllers\Operator.php on line 26.
+ 1 APPPATH\Controllers\Operator.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Operator.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->data()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 20:30:35 --> Undefined array key "draw"
+in APPPATH\Controllers\Operator.php on line 26.
+ 1 APPPATH\Controllers\Operator.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Operator.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->data()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 20:40:04 --> Undefined variable $pelanggaranM
+in APPPATH\Views\home\formTransaksiView.php on line 164.
+ 1 APPPATH\Views\home\formTransaksiView.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelanggaranM', 'APPPATH\\Views\\home\\formTransaksiView.php', 164)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTransaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTransaksiView', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('home/formTransaksiView')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 20:40:37 --> Undefined variable $pelanggaranM
+in APPPATH\Views\home\formTransaksiView.php on line 164.
+ 1 APPPATH\Views\home\formTransaksiView.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelanggaranM', 'APPPATH\\Views\\home\\formTransaksiView.php', 164)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTransaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTransaksiView', [], true)
+ 5 APPPATH\Controllers\Home.php(50): view('home/formTransaksiView')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtransaksi()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:51:22 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:51:22 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:52:12 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:52:12 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:52:51 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:52:51 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'23\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:53:29 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:53:29 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:54:10 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('[object HTMLInp...', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('[object HTMLInp...')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:54:10 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'[object HTMLInputElement]\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'[object HTMLInputElement]\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'[object HTMLInputElement]\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('[object HTMLInputElement]', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('[object HTMLInputElement]')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:59:31 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:59:31 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 21:59:31 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 21:59:31 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:07:05 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:10:44 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:12:06 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:13:20 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:16:38 --> Invalid file: Operator/operatorview.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Operator/operatorview.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Operator/operatorview', [], true)
+ 3 APPPATH\Controllers\Operator.php(26): view('Operator/operatorview')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->opee()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:21:29 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:22:12 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('[object HTMLInputElement]', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('[object HTMLInputElement]')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:22:58 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:22:59 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:23:12 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:23:14 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 22:24:36 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 22:24:36 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'2\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'2\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'2\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 22:27:55 --> mysqli_sql_exception: Unknown column 'namaOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('[object HTMLCol...', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('[object HTMLCol...')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 22:27:55 --> Unknown column 'namaOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperator` = \'\', `namaOperatorUpdate` = \'1\'
+WHERE `idOperator` = \'[object HTMLCollection]\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperator` = \'\', `namaOperatorUpdate` = \'1\'
+WHERE `idOperator` = \'[object HTMLCollection]\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperator` = \'\', `namaOperatorUpdate` = \'1\'
+WHERE `idOperator` = \'[object HTMLCollection]\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperator` = :idOperator.1:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('[object HTMLCollection]', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('[object HTMLCollection]')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 22:36:42 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 22:36:42 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 22:40:30 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 22:40:30 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\', `namaOperatorUpdate` = \'test\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:, `namaOperatorUpdate` = :namaOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 22:44:45 --> mysqli_sql_exception: Unknown column 'idOperatorUpdate' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloper...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloper...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloper...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloper...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-24 22:44:45 --> Unknown column 'idOperatorUpdate' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\'
+WHERE `idOperator` = \'null\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\'
+WHERE `idOperator` = \'null\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbloperator` SET `idOperatorUpdate` = \'\'
+WHERE `idOperator` = \'null\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbloperator` SET `idOperatorUpdate` = :idOperatorUpdate:
+WHERE `idOperator` = :idOperator:', [...], false)
+ 5 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:46:01 --> You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2122.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2058): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([])
+ 3 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 22:51:56 --> Undefined array key "draw"
+in APPPATH\Controllers\Operator.php on line 26.
+ 1 APPPATH\Controllers\Operator.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Operator.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->data()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 23:00:31 --> You must use the "set" method to update an entry.
+in SYSTEMPATH\Database\BaseBuilder.php on line 2122.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2058): CodeIgniter\Database\BaseBuilder->validateUpdate()
+ 2 APPPATH\Models\OperatorModel.php(53): CodeIgniter\Database\BaseBuilder->update([])
+ 3 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('null', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('null')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 23:13:29 --> Undefined array key "namaOperator"
+in APPPATH\Models\OperatorModel.php on line 55.
+ 1 APPPATH\Models\OperatorModel.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\OperatorModel.php', 55)
+ 2 APPPATH\Controllers\Operator.php(86): App\Models\OperatorModel->updateData('OP002', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->update('OP002')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

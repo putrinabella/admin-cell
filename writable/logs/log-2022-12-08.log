@@ -1,0 +1,181 @@
+CRITICAL - 2022-12-08 01:25:35 --> Undefined variable $hasil
+in APPPATH\Views\home\Dashboard.php on line 28.
+ 1 APPPATH\Views\home\Dashboard.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $hasil', 'APPPATH\\Views\\home\\Dashboard.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 01:28:34 --> Undefined variable $getData
+in APPPATH\Views\home\Dashboard.php on line 27.
+ 1 APPPATH\Views\home\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'APPPATH\\Views\\home\\Dashboard.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 02:16:56 --> Undefined variable $getData
+in APPPATH\Views\home\Dashboard.php on line 27.
+ 1 APPPATH\Views\home\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'APPPATH\\Views\\home\\Dashboard.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 02:16:57 --> Undefined variable $getData
+in APPPATH\Views\home\Dashboard.php on line 27.
+ 1 APPPATH\Views\home\Dashboard.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $getData', 'APPPATH\\Views\\home\\Dashboard.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\Dashboard.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/Dashboard', [], true)
+ 5 APPPATH\Controllers\Home.php(19): view('home/Dashboard')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:13:59 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 16.
+ 1 APPPATH\Controllers\AjaxCRUD.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 16)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:14:43 --> Cannot call constructor
+in APPPATH\Controllers\AjaxCRUD.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:14:44 --> Cannot call constructor
+in APPPATH\Controllers\AjaxCRUD.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:14:44 --> Cannot call constructor
+in APPPATH\Controllers\AjaxCRUD.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:14:45 --> Cannot call constructor
+in APPPATH\Controllers\AjaxCRUD.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:26:14 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:20 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:21 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:22 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:23 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:23 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:23 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:23 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:29:26 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 17.
+ 1 APPPATH\Controllers\AjaxCRUD.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:32:41 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 12.
+ 1 APPPATH\Controllers\AjaxCRUD.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AjaxCRUD->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxCRUD))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:32:43 --> Undefined property: App\Controllers\AjaxCRUD::$load
+in APPPATH\Controllers\AjaxCRUD.php on line 12.
+ 1 APPPATH\Controllers\AjaxCRUD.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\AjaxCRUD::$load', 'APPPATH\\Controllers\\AjaxCRUD.php', 12)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\AjaxCRUD->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AjaxCRUD))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 03:36:44 --> Cannot call constructor
+in APPPATH\Controllers\AjaxCRUD.php on line 10.
+ 1 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\AjaxCRUD->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 19:49:36 --> Undefined array key "draw"
+in APPPATH\Controllers\Home.php on line 24.
+ 1 APPPATH\Controllers\Home.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Home.php', 24)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 19:50:48 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 45.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Home/hapus')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Home/hapus')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Home/hapus')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-08 19:50:50 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 45.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Home/hapus')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Home/hapus')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Home/hapus')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

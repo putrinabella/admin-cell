@@ -1,0 +1,32 @@
+CRITICAL - 2022-12-07 06:27:23 --> Undefined array key "lenght"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lenght"', 'APPPATH\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->mahasiswaAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:27:48 --> Undefined array key "lenght"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lenght"', 'APPPATH\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->mahasiswaAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 06:33:29 --> Undefined array key "lenght"
+in APPPATH\Controllers\Home.php on line 26.
+ 1 APPPATH\Controllers\Home.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "lenght"', 'APPPATH\\Controllers\\Home.php', 26)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->mahasiswaAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-07 23:02:33 --> Undefined array key "id"
+in APPPATH\Views\crud_view.php on line 59.
+ 1 APPPATH\Views\crud_view.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'APPPATH\\Views\\crud_view.php', 59)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\crud_view.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('crud_view', [], true)
+ 5 APPPATH\Controllers\Crud.php(18): view('crud_view', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Crud->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Crud))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

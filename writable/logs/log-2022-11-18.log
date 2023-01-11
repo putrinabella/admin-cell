@@ -1,0 +1,17 @@
+CRITICAL - 2022-11-18 00:26:31 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-18 00:46:18 --> Value of type null is not callable
+in APPPATH\Views\Login\index.php on line 74.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login/index', [], true)
+ 4 APPPATH\Controllers\Login.php(12): view('login/index', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

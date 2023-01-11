@@ -1,0 +1,380 @@
+CRITICAL - 2022-12-15 20:24:08 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:10 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:11 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:11 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:11 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:11 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:11 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:11 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:12 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:12 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:12 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:19 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:19 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:24:20 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:28:50 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:28:50 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:28:51 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:28:51 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:28:51 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:28:52 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:29:09 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:29:57 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 62.
+ 1 APPPATH\Controllers\Home.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:31:22 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 81.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Home/simpan')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Home/simpan')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Home/simpan')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:31:25 --> syntax error, unexpected token "}"
+in APPPATH\Controllers\Home.php on line 81.
+ 1 SYSTEMPATH\Router\Router.php(499): CodeIgniter\Router\AutoRouter->getRoute('Home')
+ 2 SYSTEMPATH\Router\Router.php(205): CodeIgniter\Router\Router->autoRoute('Home')
+ 3 SYSTEMPATH\CodeIgniter.php(802): CodeIgniter\Router\Router->handle('Home')
+ 4 SYSTEMPATH\CodeIgniter.php(430): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:25 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:25 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:25 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:25 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:25 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:26 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:26 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:26 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:26 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:38:26 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:44:54 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:24 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:34 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:39 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:40 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:40 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:40 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:41 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:45:56 --> Undefined array key "password"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "password"', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:46:13 --> Undefined variable $user
+in APPPATH\Controllers\Home.php on line 63.
+ 1 APPPATH\Controllers\Home.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $user', 'APPPATH\\Controllers\\Home.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:06 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:10 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:41 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:42 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:43 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:57 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:58 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:48:58 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 64.
+ 1 APPPATH\Controllers\Home.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:50:35 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-15 20:50:42 --> Undefined array key "username"
+in APPPATH\Controllers\Home.php on line 61.
+ 1 APPPATH\Controllers\Home.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Home.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

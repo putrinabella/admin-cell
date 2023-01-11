@@ -1,0 +1,371 @@
+CRITICAL - 2022-12-27 04:55:22 --> Undefined variable $countAdmin
+in APPPATH\Views\home\index.php on line 31.
+ 1 APPPATH\Views\home\index.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $countAdmin', 'APPPATH\\Views\\home\\index.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\index.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/index', [], true)
+ 5 APPPATH\Controllers\Home.php(29): view('home/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 06:09:10 --> mysqli_sql_exception: Duplicate entry '12' for key 'PRIMARY' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(749): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\myproject\system\Model.php(667): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(94): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->simpandata()
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#10 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-12-27 06:09:10 --> Duplicate entry '12' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tbltransaksipembelian` (`idTransaksi`, `nohp`, `idOperator`, `idPaket`) VALUES (\'12\', \'081522792976\', \'OP004\', \'P0002\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tbltransaksipembelian` (`idTransaksi`, `nohp`, `idOperator`, `idPaket`) VALUES (\'12\', \'081522792976\', \'OP004\', \'P0002\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tbltransaksipembelian` (`idTransaksi`, `nohp`, `idOperator`, `idPaket`) VALUES (\'12\', \'081522792976\', \'OP004\', \'P0002\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tbltransaksipembelian` (`idTransaksi`, `nohp`, `idOperator`, `idPaket`) VALUES (:idTransaksi:, :nohp:, :idOperator:, :idPaket:)', [...], false)
+ 5 SYSTEMPATH\Model.php(279): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(749): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], false)
+ 8 APPPATH\Controllers\Transaksi.php(94): CodeIgniter\Model->insert([...], false)
+ 9 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpandata()
+10 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+11 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:11:19 --> syntax error, unexpected token "}"
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DashboardModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DashboardModel')
+ 3 APPPATH\Controllers\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DashboardModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:11:29 --> syntax error, unexpected token "}"
+in APPPATH\Models\DashboardModel.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DashboardModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DashboardModel')
+ 3 APPPATH\Controllers\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DashboardModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 06:44:10 --> Undefined variable $username
+in APPPATH\Views\home\dataTransaksiView.php on line 262.
+ 1 APPPATH\Views\home\dataTransaksiView.php(262): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\dataTransaksiView.php', 262)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataTransaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataTransaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(28): view('home/dataTransaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->database()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 07:02:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::SUM()
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:22:03 --> Object of class CodeIgniter\Database\MySQLi\Connection could not be converted to string
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:22:26 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Models\\DashboardModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\DashboardModel')
+ 3 APPPATH\Controllers\Home.php(18): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\DashboardModel')
+ 4 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Home->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:22:53 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Models\DashboardModel.php on line 48.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:26:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 23:28:13 --> mysqli_sql_exception: Unknown column 'hargaJual' in 'field list' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(harg...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(harg...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(harg...')
+#3 C:\xampp\htdocs\myproject\app\Models\DashboardModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT SUM(harg...')
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 23:28:13 --> Unknown column 'hargaJual' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(hargaJual - harga) AS keuntungan FROM tbltransaksipembelian', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(hargaJual - harga) AS keuntungan FROM tbltransaksipembelian')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(hargaJual - harga) AS keuntungan FROM tbltransaksipembelian')
+ 4 APPPATH\Models\DashboardModel.php(48): CodeIgniter\Database\BaseConnection->query('SELECT SUM(hargaJual - harga) AS keuntungan FROM tbltransaksipembelian')
+ 5 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 23:30:31 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE ...' at line 1 in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT S...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT S...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT S...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT S...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-27 23:30:31 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', [], false)
+ 5 APPPATH\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 23:30:56 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket
+FROM `...' at line 1 in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT S...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT S...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT S...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT S...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-27 23:30:56 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket
+FROM `...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', [], false)
+ 5 APPPATH\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 23:31:03 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE ...' at line 1 in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT S...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT S...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT S...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT S...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-27 23:31:03 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SELECT SUM(hargaJual - harga) FROM tbltransaksipembelian JOIN tblPaket WHERE tblPaket.idPaket = tbltransaksipembelian.idPaket
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', [], false)
+ 5 APPPATH\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 23:32:10 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`harga`) AS `hargaJual - harga`
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ...' at line 1 in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`har...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`har...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`har...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`har...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-27 23:32:10 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`harga`) AS `hargaJual - harga`
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ...' at line 1
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`hargaJual -` `harga`) AS `hargaJual - harga`
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`hargaJual -` `harga`) AS `hargaJual - harga`
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`hargaJual -` `harga`) AS `hargaJual - harga`
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`hargaJual -` `harga`) AS `hargaJual - harga`
+FROM `tbltransaksipembelian`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`', [], false)
+ 5 APPPATH\Models\DashboardModel.php(49): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(29): App\Models\DashboardModel->countKeuntungan()
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:45:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+in APPPATH\Controllers\Home.php on line 30.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:47:35 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::result()
+in APPPATH\Models\DashboardModel.php on line 52.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:47:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::Result()
+in APPPATH\Models\DashboardModel.php on line 52.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:50:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select_sum()
+in APPPATH\Models\DashboardModel.php on line 53.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:50:28 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::selectSum()
+in APPPATH\Models\DashboardModel.php on line 53.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:50:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::get()
+in APPPATH\Models\DashboardModel.php on line 54.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:24 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 23:57:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+in APPPATH\Models\DashboardModel.php on line 51.
+ 1 APPPATH\Controllers\Home.php(30): App\Models\DashboardModel->countKeuntungan()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

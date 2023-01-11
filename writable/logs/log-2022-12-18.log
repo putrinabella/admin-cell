@@ -1,0 +1,44 @@
+CRITICAL - 2022-12-18 03:29:19 --> Invalid file: login/signup.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/signup.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login/signup', [], true)
+ 3 APPPATH\Controllers\Login.php(12): view('login/signup', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:00:25 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:00:48 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:01:19 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:01:52 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 07:29:51 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

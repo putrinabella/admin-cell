@@ -1,0 +1,240 @@
+ERROR - 2022-12-16 23:40:30 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'dbproject', 3306, '', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 23:40:30 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbluser`
+ORDER BY `username`
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('ROOTPATH\\public', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:40:41 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'dbproject', 3306, '', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 23:40:41 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbluser`
+ORDER BY `username`
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('ROOTPATH\\public', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:40:42 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'dbproject', 3306, '', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 23:40:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbluser`
+ORDER BY `username`
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('ROOTPATH\\public', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:41:51 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'dbproject', 3306, '', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 23:41:51 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbluser`
+ORDER BY `username`
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('ROOTPATH\\public', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:41:57 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'dbproject', 3306, '', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 23:41:57 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbluser`
+ORDER BY `username`
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('ROOTPATH\\public', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-16 23:41:58 --> Error connecting to the database: mysqli_sql_exception: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', '', 'dbproject', 3306, '', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: No connection could be made because the target machine actively refused it in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\myproject\app\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\myproject\app\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('', '0', '10')
+#5 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-16 23:41:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbluser`
+ORDER BY `username`
+ LIMIT 10', [], false)
+ 3 APPPATH\Models\UserModel.php(50): CodeIgniter\Database\BaseBuilder->get()
+ 4 APPPATH\Controllers\Home.php(32): App\Models\UserModel->searchAndDisplay('ROOTPATH\\public', '0', '10')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

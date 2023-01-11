@@ -1,0 +1,769 @@
+ERROR - 2022-12-26 05:04:32 --> mysqli_sql_exception: Column 'idOperator' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('i', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 05:04:32 --> Column 'idOperator' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%i%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%i%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%i%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%i%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%i%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%i%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%i%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%i%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%i%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%i%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%i%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%i%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%i%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%i%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%i%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE :idTransaksi: ESCAPE \'!\'
+OR  `nohp` LIKE :nohp: ESCAPE \'!\'
+OR  `idOperator` LIKE :idOperator: ESCAPE \'!\'
+OR  `idPaket` LIKE :idPaket: ESCAPE \'!\'
+OR  `keuntungan` LIKE :keuntungan: ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('i', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 05:04:41 --> mysqli_sql_exception: Column 'idOperator' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('08', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 05:04:41 --> Column 'idOperator' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%08%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%08%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%08%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%08%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%08%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%08%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%08%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%08%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%08%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%08%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%08%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%08%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%08%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%08%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%08%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE :idTransaksi: ESCAPE \'!\'
+OR  `nohp` LIKE :nohp: ESCAPE \'!\'
+OR  `idOperator` LIKE :idOperator: ESCAPE \'!\'
+OR  `idPaket` LIKE :idPaket: ESCAPE \'!\'
+OR  `keuntungan` LIKE :keuntungan: ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('08', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 05:04:48 --> mysqli_sql_exception: Column 'idOperator' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('T', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 05:04:48 --> Column 'idOperator' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%T%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%T%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%T%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%T%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%T%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%T%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%T%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%T%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%T%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE :idTransaksi: ESCAPE \'!\'
+OR  `nohp` LIKE :nohp: ESCAPE \'!\'
+OR  `idOperator` LIKE :idOperator: ESCAPE \'!\'
+OR  `idPaket` LIKE :idPaket: ESCAPE \'!\'
+OR  `keuntungan` LIKE :keuntungan: ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('T', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 05:04:59 --> mysqli_sql_exception: Column 'idOperator' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('T', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 05:04:59 --> Column 'idOperator' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%T%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%T%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%T%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%T%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%T%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%T%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%T%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%T%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%T%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%T%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE :idTransaksi: ESCAPE \'!\'
+OR  `nohp` LIKE :nohp: ESCAPE \'!\'
+OR  `idOperator` LIKE :idOperator: ESCAPE \'!\'
+OR  `idPaket` LIKE :idPaket: ESCAPE \'!\'
+OR  `keuntungan` LIKE :keuntungan: ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('T', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 05:05:47 --> mysqli_sql_exception: Column 'idOperator' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('t', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 05:05:47 --> Column 'idOperator' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%t%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%t%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%t%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%t%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%t%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%t%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%t%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idOperator` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%t%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%t%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE :idTransaksi: ESCAPE \'!\'
+OR  `nohp` LIKE :nohp: ESCAPE \'!\'
+OR  `idOperator` LIKE :idOperator: ESCAPE \'!\'
+OR  `idPaket` LIKE :idPaket: ESCAPE \'!\'
+OR  `keuntungan` LIKE :keuntungan: ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('t', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 05:06:41 --> mysqli_sql_exception: Column 'idPaket' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('t', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 05:06:41 --> Column 'idPaket' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%t%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%t%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%t%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%t%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%t%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%t%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE \'%t%\' ESCAPE \'!\'
+OR  `nohp` LIKE \'%t%\' ESCAPE \'!\'
+OR  `idPaket` LIKE \'%t%\' ESCAPE \'!\'
+OR  `keuntungan` LIKE \'%t%\' ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbltransaksipembelian`
+JOIN `tbloperator` ON `tbloperator`.`idOperator` =  `tbltransaksipembelian`.`idOperator`
+JOIN `tblpaket` ON `tblpaket`.`idPaket` =  `tbltransaksipembelian`.`idPaket`
+WHERE `idTransaksi` LIKE :idTransaksi: ESCAPE \'!\'
+OR  `nohp` LIKE :nohp: ESCAPE \'!\'
+OR  `idPaket` LIKE :idPaket: ESCAPE \'!\'
+OR  `keuntungan` LIKE :keuntungan: ESCAPE \'!\'
+ORDER BY `idTransaksi` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\TransaksiModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Transaksi.php(41): App\Models\TransaksiModel->kategoriDisplay('t', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:39:55 --> Call to undefined method App\Models\TransaksiModel::updateData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Transaksi.php(93): CodeIgniter\Model->__call('updateData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->update('T0001')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:39:55 --> Call to undefined method App\Models\TransaksiModel::updateData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Transaksi.php(93): CodeIgniter\Model->__call('updateData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->update('T0001')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:40:27 --> Call to undefined method App\Models\TransaksiModel::updateData
+in SYSTEMPATH\Model.php on line 774.
+ 1 APPPATH\Controllers\Transaksi.php(93): CodeIgniter\Model->__call('updateData', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->update('T0001')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:43:20 --> Undefined array key "namaOperator"
+in APPPATH\Models\TransaksiModel.php on line 64.
+ 1 APPPATH\Models\TransaksiModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\TransaksiModel.php', 64)
+ 2 APPPATH\Controllers\Transaksi.php(93): App\Models\TransaksiModel->updateData('T0001', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->update('T0001')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 05:44:03 --> Undefined array key "namaOperator"
+in APPPATH\Models\TransaksiModel.php on line 64.
+ 1 APPPATH\Models\TransaksiModel.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "namaOperator"', 'APPPATH\\Models\\TransaksiModel.php', 64)
+ 2 APPPATH\Controllers\Transaksi.php(93): App\Models\TransaksiModel->updateData('T0001', [...])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->update('T0001')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:20:29 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:20:44 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:22:56 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:23:23 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:23:25 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:25:38 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:25:49 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:27:09 --> Undefined array key "username"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "username"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:28:00 --> Undefined array key "nohp"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nohp"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:28:01 --> Undefined array key "nohp"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nohp"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:29:07 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:30:33 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:30:33 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:31:11 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:31:34 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 71.
+ 1 APPPATH\Controllers\Transaksi.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 71)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:33:31 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 92.
+ 1 APPPATH\Controllers\Transaksi.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:33:32 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 92.
+ 1 APPPATH\Controllers\Transaksi.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 06:50:34 --> Undefined array key "idTransaksi"
+in APPPATH\Controllers\Transaksi.php on line 92.
+ 1 APPPATH\Controllers\Transaksi.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idTransaksi"', 'APPPATH\\Controllers\\Transaksi.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->simpandata()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 07:35:26 --> Invalid file: home/datatable.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/datatable.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/datatable', [], true)
+ 3 APPPATH\Controllers\Home.php(30): view('home/datatable')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->datauser()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 08:05:36 --> mysqli_sql_exception: Unknown column 'usernamer' in 'where clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(90): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 08:05:36 --> Unknown column 'usernamer' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser` SET `role` = \'Admin\'
+WHERE `usernamer` = \'2011016110005\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser` SET `role` = \'Admin\'
+WHERE `usernamer` = \'2011016110005\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser` SET `role` = \'Admin\'
+WHERE `usernamer` = \'2011016110005\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser` SET `role` = :role:
+WHERE `usernamer` = :usernamer:', [...], false)
+ 5 APPPATH\Models\UserModel.php(90): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-26 08:06:47 --> mysqli_sql_exception: Unknown column 'usernamer' in 'where clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(90): CodeIgniter\Database\BaseBuilder->update(Array)
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-26 08:06:47 --> Unknown column 'usernamer' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser` SET `role` = \'Admin\'
+WHERE `usernamer` = \'2011016110005\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser` SET `role` = \'Admin\'
+WHERE `usernamer` = \'2011016110005\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser` SET `role` = \'Admin\'
+WHERE `usernamer` = \'2011016110005\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser` SET `role` = :role:
+WHERE `usernamer` = :usernamer:', [...], false)
+ 5 APPPATH\Models\UserModel.php(90): CodeIgniter\Database\BaseBuilder->update([...])
+ 6 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:07:57 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:08:05 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:09:13 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:09:30 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:11:01 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:13:28 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:13:57 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:14:13 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:14:21 --> Undefined array key "draw"
+in APPPATH\Controllers\Home.php on line 87.
+ 1 APPPATH\Controllers\Home.php(87): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "draw"', 'APPPATH\\Controllers\\Home.php', 87)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:14:46 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 08:21:25 --> Undefined array key "role"
+in APPPATH\Models\UserModel.php on line 90.
+ 1 APPPATH\Models\UserModel.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "role"', 'APPPATH\\Models\\UserModel.php', 90)
+ 2 APPPATH\Controllers\Home.php(151): App\Models\UserModel->updateData('2011016110005', [])
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->update('2011016110005')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 22:45:29 --> Undefined variable $username
+in APPPATH\Views\home\dataTransaksiView.php on line 263.
+ 1 APPPATH\Views\home\dataTransaksiView.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\dataTransaksiView.php', 263)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataTransaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataTransaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(28): view('home/dataTransaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->database()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 22:46:05 --> Undefined variable $username
+in APPPATH\Views\home\dataTransaksiView.php on line 263.
+ 1 APPPATH\Views\home\dataTransaksiView.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\dataTransaksiView.php', 263)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataTransaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataTransaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(28): view('home/dataTransaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->database()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 22:46:58 --> Undefined variable $username
+in APPPATH\Views\home\dataTransaksiView.php on line 263.
+ 1 APPPATH\Views\home\dataTransaksiView.php(263): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\dataTransaksiView.php', 263)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataTransaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataTransaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(28): view('home/dataTransaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->database()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:01:32 --> Undefined variable $username
+in APPPATH\Views\home\transaksiView.php on line 84.
+ 1 APPPATH\Views\home\transaksiView.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\transaksiView.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\transaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/transaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(22): view('home/transaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:02:32 --> Undefined variable $username
+in APPPATH\Views\home\transaksiView.php on line 84.
+ 1 APPPATH\Views\home\transaksiView.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\transaksiView.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\transaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/transaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(22): view('home/transaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-26 23:02:47 --> Undefined variable $username
+in APPPATH\Views\home\transaksiView.php on line 84.
+ 1 APPPATH\Views\home\transaksiView.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $username', 'APPPATH\\Views\\home\\transaksiView.php', 84)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\transaksiView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/transaksiView', [], true)
+ 5 APPPATH\Controllers\Transaksi.php(22): view('home/transaksiView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Transaksi->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Transaksi))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

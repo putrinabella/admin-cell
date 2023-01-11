@@ -1,0 +1,1184 @@
+CRITICAL - 2022-12-23 00:35:07 --> Undefined variable $pelakuM
+in APPPATH\Views\home\formTilang.php on line 158.
+ 1 APPPATH\Views\home\formTilang.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\formTilang.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [...], true)
+ 5 APPPATH\Controllers\Form.php(32): view('home/formTilang', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 00:36:00 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 158.
+ 1 APPPATH\Views\home\formTilang.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(31): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 00:54:37 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 158.
+ 1 APPPATH\Views\home\formTilang.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 158)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 00:55:02 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 171.
+ 1 APPPATH\Views\home\formTilang.php(171): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 171)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 00:55:10 --> Undefined property: stdClass::$denda
+in APPPATH\Views\home\formTilang.php on line 172.
+ 1 APPPATH\Views\home\formTilang.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$denda', 'APPPATH\\Views\\home\\formTilang.php', 172)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 00:55:19 --> Undefined property: stdClass::$bentukPelanggaran
+in APPPATH\Views\home\formTilang.php on line 172.
+ 1 APPPATH\Views\home\formTilang.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$bentukPelanggaran', 'APPPATH\\Views\\home\\formTilang.php', 172)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 02:57:02 --> mysqli_sql_exception: Unknown column 'username' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\FormTilangModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Form.php(40): App\Models\FormTilangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Form->dataform()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 02:57:02 --> Unknown column 'username' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\FormTilangModel.php(85): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Form.php(40): App\Models\FormTilangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->dataform()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 03:05:12 --> mysqli_sql_exception: Unknown column 'username' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\FormTilangModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Form.php(37): App\Models\FormTilangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Form->dataform()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 03:05:12 --> Unknown column 'username' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\FormTilangModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Form.php(37): App\Models\FormTilangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->dataform()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 03:05:29 --> mysqli_sql_exception: Unknown column 'username' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\FormTilangModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Form.php(37): App\Models\FormTilangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Form->dataform()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 03:05:29 --> Unknown column 'username' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\FormTilangModel.php(75): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Form.php(37): App\Models\FormTilangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->dataform()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 03:06:00 --> mysqli_sql_exception: Unknown column 'username' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\FormTilangModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Form.php(37): App\Models\FormTilangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Form->dataform()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 03:06:00 --> Unknown column 'username' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\FormTilangModel.php(76): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Form.php(37): App\Models\FormTilangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->dataform()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 03:18:12 --> mysqli_sql_exception: Unknown column 'username' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Home.php(74): App\Models\UserModel->userDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 03:18:12 --> Unknown column 'username' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblform`
+ORDER BY `username` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\UserModel.php(56): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Home.php(74): App\Models\UserModel->userDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->dataAjax()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:23:55 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 29.
+ 1 APPPATH\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 29)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:41:22 --> Invalid file: barang/jenisBarang.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/jenisBarang.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('barang/jenisBarang', [], true)
+ 3 APPPATH\Controllers\Barang.php(17): view('barang/jenisBarang')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:41:29 --> Invalid file: barang/jenisBarang.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/jenisBarang.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('barang/jenisBarang', [], true)
+ 3 APPPATH\Controllers\Barang.php(17): view('barang/jenisBarang')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:41:47 --> Invalid file: barang/jenisBarang.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/jenisBarang.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('barang/jenisBarang', [], true)
+ 3 APPPATH\Controllers\Barang.php(17): view('barang/jenisBarang')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:42:53 --> Invalid file: barang/jenisBarang.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/jenisBarang.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('barang/jenisBarang', [], true)
+ 3 APPPATH\Controllers\Barang.php(17): view('barang/jenisBarang')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 04:42:55 --> Invalid file: barang/jenisBarang.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/jenisBarang.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('barang/jenisBarang', [], true)
+ 3 APPPATH\Controllers\Home.php(35): view('barang/jenisBarang')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->jenisview()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 04:44:02 --> mysqli_sql_exception: Unknown column 'idPelaku' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 04:44:02 --> Unknown column 'idPelaku' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idPelaku` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbljenis`
+ORDER BY `idPelaku` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbljenis`
+ORDER BY `idPelaku` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idPelaku` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 04:45:15 --> mysqli_sql_exception: Unknown column 'idBarang' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 04:45:15 --> Unknown column 'idBarang' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 04:45:56 --> mysqli_sql_exception: Unknown column 'idBarang' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 04:45:56 --> Unknown column 'idBarang' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 04:46:04 --> mysqli_sql_exception: Unknown column 'idBarang' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 04:46:04 --> Unknown column 'idBarang' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tbljenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\JenisBarangModel.php(45): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Barang.php(35): App\Models\JenisBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->datajenis()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:14:30 --> Undefined variable $pelakuM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:17:37 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:17:40 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:18:57 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:19:51 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:19:56 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:25:13 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:27:52 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:27:56 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 05:28:31 --> mysqli_sql_exception: Unknown column 'tblpelaku.idJenis' in 'on clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 05:28:31 --> Unknown column 'tblpelaku.idJenis' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 05:28:36 --> mysqli_sql_exception: Unknown column 'tblpelaku.idJenis' in 'on clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 05:28:36 --> Unknown column 'tblpelaku.idJenis' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 05:28:55 --> mysqli_sql_exception: Unknown column 'tblpelaku.idJenis' in 'on clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 05:28:55 --> Unknown column 'tblpelaku.idJenis' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 05:29:06 --> mysqli_sql_exception: Unknown column 'tblpelaku.idJenis' in 'on clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 05:29:06 --> Unknown column 'tblpelaku.idJenis' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tblpelaku` ON `tblpelaku`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idBarang` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(51): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:31:27 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:33:25 --> Undefined variable $jenisM
+in APPPATH\Views\home\dataBarang.php on line 188.
+ 1 APPPATH\Views\home\dataBarang.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\dataBarang.php', 188)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\dataBarang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/dataBarang', [], true)
+ 5 APPPATH\Controllers\Home.php(40): view('home/dataBarang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->barangview()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:33:43 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Barang.php on line 131.
+ 1 APPPATH\Controllers\Barang.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Barang.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->simpanBarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:33:47 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Barang.php on line 131.
+ 1 APPPATH\Controllers\Barang.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Barang.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->simpanBarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:36:04 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Barang.php on line 131.
+ 1 APPPATH\Controllers\Barang.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Barang.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->simpanBarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:36:08 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Barang.php on line 131.
+ 1 APPPATH\Controllers\Barang.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Barang.php', 131)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->simpanBarang()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:36:55 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:36:55 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:36:59 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:39:21 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:39:33 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:40:50 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:40:55 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpanData()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:42:52 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:47:07 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:47:29 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 05:47:29 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 07:53:17 --> Undefined property: stdClass::$idPelaku
+in APPPATH\Views\home\formTilang.php on line 165.
+ 1 APPPATH\Views\home\formTilang.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$idPelaku', 'APPPATH\\Views\\home\\formTilang.php', 165)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(25): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:02:27 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 164.
+ 1 APPPATH\Views\home\formTilang.php(164): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 164)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(27): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:36:49 --> Invalid file: home/operatorview.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/operatorview.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/operatorview', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('home/operatorview')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->namaoperator()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:37:23 --> Invalid file: home/operatorview.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/operatorview.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/operatorview', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('home/operatorview')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->namaoperator()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:37:25 --> Invalid file: home/operatorview.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/operatorview.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/operatorview', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('home/operatorview')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->namaoperator()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:37:25 --> Invalid file: home/operatorview.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/operatorview.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/operatorview', [], true)
+ 3 APPPATH\Controllers\Home.php(45): view('home/operatorview')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->namaoperator()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:47:13 --> Undefined array key "idJenis"
+in APPPATH\Controllers\Barang.php on line 73.
+ 1 APPPATH\Controllers\Barang.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idJenis"', 'APPPATH\\Controllers\\Barang.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->simpanJenis()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 16:47:36 --> Undefined array key "idJenis"
+in APPPATH\Controllers\Barang.php on line 73.
+ 1 APPPATH\Controllers\Barang.php(73): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idJenis"', 'APPPATH\\Controllers\\Barang.php', 73)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Barang->simpanJenis()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Barang))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 18:12:33 --> Undefined variable $jenisM
+in APPPATH\Views\home\paketView.php on line 194.
+ 1 APPPATH\Views\home\paketView.php(194): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $jenisM', 'APPPATH\\Views\\home\\paketView.php', 194)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\paketView.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/paketView', [], true)
+ 5 APPPATH\Controllers\Operator.php(21): view('home/paketView', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 18:12:59 --> mysqli_sql_exception: Unknown column 'idPaket' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 18:12:59 --> Unknown column 'idPaket' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 18:13:08 --> mysqli_sql_exception: Unknown column 'idPaket' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 18:13:08 --> Unknown column 'idPaket' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 18:13:14 --> mysqli_sql_exception: Unknown column 'idPaket' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 18:13:14 --> Unknown column 'idPaket' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 18:13:21 --> mysqli_sql_exception: Unknown column 'idPaket' in 'order clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Jenis->data()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 18:13:21 --> Unknown column 'idPaket' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblbarang`
+JOIN `tbljenis` ON `tbljenis`.`idJenis` =  `tblbarang`.`idJenis`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\DataBarangModel.php(52): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Jenis.php(36): App\Models\DataBarangModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->data()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 18:14:38 --> mysqli_sql_exception: Unknown column 'tbljenis.idOperator' in 'on clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\PaketModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(92): App\Models\PaketModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->dataPaket()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 18:14:38 --> Unknown column 'tbljenis.idOperator' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\PaketModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Operator.php(92): App\Models\PaketModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->dataPaket()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-23 18:15:31 --> mysqli_sql_exception: Unknown column 'tbljenis.idOperator' in 'on clause' in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\PaketModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Operator.php(92): App\Models\PaketModel->kategoriDisplay('', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Operator->dataPaket()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-23 18:15:31 --> Unknown column 'tbljenis.idOperator' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblpaket`
+JOIN `tbljenis` ON `tbljenis`.`idOperator` =  `tblpaket`.`idOperator`
+ORDER BY `idPaket` ASC
+ LIMIT 10', [], false)
+ 5 APPPATH\Models\PaketModel.php(55): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Operator.php(92): App\Models\PaketModel->kategoriDisplay('ROOTPATH\\public', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Operator->dataPaket()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Operator))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 18:24:54 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-23 18:24:54 --> Undefined array key "idBarang"
+in APPPATH\Controllers\Jenis.php on line 66.
+ 1 APPPATH\Controllers\Jenis.php(66): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idBarang"', 'APPPATH\\Controllers\\Jenis.php', 66)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jenis->simpan()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jenis))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

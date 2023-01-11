@@ -1,0 +1,557 @@
+CRITICAL - 2022-11-17 19:35:11 --> Invalid file: Login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Login/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('Login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('Login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:35:16 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:35:16 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:37:17 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:37:17 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:38:16 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:38:16 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:38:41 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:38:41 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:38:41 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:38:41 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:38:49 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:38:49 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:38:53 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 19:38:53 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 19:40:05 --> Error connecting to the database: mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: YES) in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:171
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(171): mysqli->real_connect('localhost', 'root', 'root', 'dbecatalog', 3306, '', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user '****'@'localhost' (using password: YES) in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:215
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(382): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#5 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+#6 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-11-17 19:40:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user '****'@'localhost' (using password: YES)
+in SYSTEMPATH\Database\BaseConnection.php on line 418.
+ 1 SYSTEMPATH\Database\BaseConnection.php(561): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 3 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 5 APPPATH\Controllers\Login.php(18): CodeIgniter\BaseModel->find('putri')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 19:46:38 --> Invalid file: login/index.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/index.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('login/index', [], true)
+ 3 APPPATH\Controllers\Login.php(11): view('login/index')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 20:15:10 --> Invalid file: home/sign-in.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/sign-in.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/sign-in', [], true)
+ 3 APPPATH\Controllers\Home.php(9): view('home/sign-in')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 20:28:11 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(20): CodeIgniter\BaseModel->find(NULL)
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 20:28:11 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Login.php(20): CodeIgniter\BaseModel->find(null)
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 20:29:44 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(false, NULL)
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(20): CodeIgniter\BaseModel->find(NULL)
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 20:29:44 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`', [], false)
+ 5 SYSTEMPATH\Model.php(185): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(false, null)
+ 7 APPPATH\Controllers\Login.php(20): CodeIgniter\BaseModel->find(null)
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 20:49:56 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(21): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\Login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 20:49:56 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 20:54:33 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(21): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\Login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 20:54:33 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-11-17 20:54:45 --> mysqli_sql_exception: Table 'dbecatalog.user' doesn't exist in C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\ecatalog\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\ecatalog\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\ecatalog\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\ecatalog\system\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\ecatalog\system\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+#6 C:\xampp\htdocs\ecatalog\app\Controllers\Login.php(21): CodeIgniter\BaseModel->find('putri')
+#7 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(927): App\Controllers\Login->cek()
+#8 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#9 C:\xampp\htdocs\ecatalog\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ecatalog\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-11-17 20:54:45 --> Table 'dbecatalog.user' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `user`
+WHERE `user`.`username` = \'putri\'')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `user`
+WHERE `user`.`username` = :user.username:', [...], false)
+ 5 SYSTEMPATH\Model.php(182): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(524): CodeIgniter\Model->doFind(true, 'putri')
+ 7 APPPATH\Controllers\Login.php(21): CodeIgniter\BaseModel->find('putri')
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:03:18 --> Undefined property: stdClass::$password
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$password', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:04:46 --> Attempt to read property "pass" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pass" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:06:26 --> Attempt to read property "pass" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "pass" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:06:36 --> Undefined property: stdClass::$pass
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$pass', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:06:55 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:11:52 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:12:14 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:13:25 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:13:26 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 21:13:45 --> Attempt to read property "password" on array
+in APPPATH\Controllers\Login.php on line 28.
+ 1 APPPATH\Controllers\Login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "password" on array', 'APPPATH\\Controllers\\Login.php', 28)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-11-17 22:04:10 --> Too few arguments to function App\Controllers\Login::cek(), 0 passed in C:\xampp\htdocs\ecatalog\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Login.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Login->cek()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,154 @@
+body{background-color:#5d76d2}
+#auth{height:100vh;overflow-x:hidden}
+#auth #auth-right{background:url(/public/assets/images/4853433.jpeg)}
+/* #auth #auth-right{background:url(/public/assets/images/4853433.jpeg),linear-gradient(90deg,#2d499d,#3f5491);height:100%} */
+#auth #auth-left{padding:5rem 8rem}
+#auth #auth-left .auth-title{font-size:4rem;margin-bottom:1rem}
+#auth #auth-left .auth-subtitle{color:#a8aebb;font-size:1.7rem;line-height:2.5rem}
+#auth #auth-left .auth-logo{margin-bottom:7rem}
+#auth #auth-left .auth-logo img{height:2rem}@media screen and (max-width:767px){#auth #auth-left{padding:5rem}}@media screen and (max-width:576px){#auth #auth-left{padding:5rem 3rem}}body.theme-dark 
+#auth-right{background:url(/public/assets/images/4853433.jpeg),linear-gradient(90deg,#2d499d,#3f5491)}
+
+.signup-form, .signup-image, .signin-form, .signin-image {
+    width: 50%;
+    overflow: hidden; }
+
+    .signup-image {
+      margin-top: 45px; }
+.signin-form {
+    margin-right: 90px;
+    margin-left: 80px; }
+
+    .signup-form {
+      margin-left: 75px;
+      margin-right: 75px;
+      padding-left: 34px; }
+
+
+    .signup-form, .signup-image, .signin-form, .signin-image {
+        width: auto; }
+
+.signin-form {
+    order: 1;
+    -moz-order: 1;
+    -webkit-order: 1;
+    -o-order: 1;
+    -ms-order: 1;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 0 30px; }
+    
+.position-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); }
+
+.container {
+    width: 900px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -webkit-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -o-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    -ms-box-shadow: 0px 15px 16.83px 0.17px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px; }
+
+.signin-content {
+        padding-top: 67px;
+        padding-bottom: 87px; }
+        
+.signin-image {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    order: 2;
+    -moz-order: 2;
+    -webkit-order: 2;
+    -o-order: 2;
+    -ms-order: 2; }
+
+    .signin-image {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px; }
+
+        .signup-image{
+          margin-left: 0px;
+          margin-right: 0px;
+          margin-top: 0px; }
+
+    display-flex, .display-flex, .display-flex-center, .signup-content, .signin-content, .social-login, .socials {
+        display: flex;
+        display: -webkit-flex; }
+
+        @media screen and (max-width: 768px) {
+            .signup-content, .signin-content {
+              flex-direction: column;
+              -moz-flex-direction: column;
+              -webkit-flex-direction: column;
+              -o-flex-direction: column;
+              -ms-flex-direction: column;
+              justify-content: center;
+              -moz-justify-content: center;
+              -webkit-justify-content: center;
+              -o-justify-content: center;
+              -ms-justify-content: center; }
+          
+            .signup-form {
+              margin-left: 0px;
+              margin-right: 0px;
+              padding-left: 0px;
+              /* box-sizing: border-box; */
+              padding: 0 30px; }
+          
+            .signin-image {
+              margin-left: 0px;
+              margin-right: 0px;
+              margin-top: 50px;
+              order: 2;
+              -moz-order: 2;
+              -webkit-order: 2;
+              -o-order: 2;
+              -ms-order: 2; }
+          
+            .signup-form, .signup-image, .signin-form, .signin-image {
+              width: auto; }
+          
+            .social-login {
+              justify-content: center;
+              -moz-justify-content: center;
+              -webkit-justify-content: center;
+              -o-justify-content: center;
+              -ms-justify-content: center; }
+          
+            .form-button {
+              text-align: center; }
+          
+            .signin-form {
+              order: 1;
+              -moz-order: 1;
+              -webkit-order: 1;
+              -o-order: 1;
+              -ms-order: 1;
+              margin-right: 0px;
+              margin-left: 0px;
+              padding: 0 30px; }
+          
+            .form-title {
+              text-align: center; } }
+    .form-title {
+        margin-bottom: 33px; }
+.register-form {
+   width: 400px; }
+
+   

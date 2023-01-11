@@ -1,0 +1,374 @@
+ERROR - 2022-12-22 00:36:22 --> mysqli_sql_exception: Column 'idPelaku' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\PelanggaranModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Pelanggaran.php(48): App\Models\PelanggaranModel->kategoriDisplay('F', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Pelanggaran->datajenispelanggaran()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggaran))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-22 00:36:22 --> Column 'idPelaku' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `idPelaku` LIKE \'%F%\' ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `denda` LIKE \'%F%\' ESCAPE \'!\'
+ORDER BY `idPelanggaran` ASC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `idPelaku` LIKE \'%F%\' ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `denda` LIKE \'%F%\' ESCAPE \'!\'
+ORDER BY `idPelanggaran` ASC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `idPelaku` LIKE \'%F%\' ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `denda` LIKE \'%F%\' ESCAPE \'!\'
+ORDER BY `idPelanggaran` ASC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE :idPelanggaran: ESCAPE \'!\'
+OR  `idPelaku` LIKE :idPelaku: ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE :bentukPelanggaran: ESCAPE \'!\'
+OR  `denda` LIKE :denda: ESCAPE \'!\'
+ORDER BY `idPelanggaran` ASC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\PelanggaranModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pelanggaran.php(48): App\Models\PelanggaranModel->kategoriDisplay('F', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pelanggaran->datajenispelanggaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-22 00:36:34 --> mysqli_sql_exception: Column 'idPelaku' in where clause is ambiguous in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\app\Models\PelanggaranModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\app\Controllers\Pelanggaran.php(48): App\Models\PelanggaranModel->kategoriDisplay('F', '0', '10', Array, Array)
+#6 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Pelanggaran->datajenispelanggaran()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggaran))
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-22 00:36:34 --> Column 'idPelaku' in where clause is ambiguous
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `idPelaku` LIKE \'%F%\' ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `denda` LIKE \'%F%\' ESCAPE \'!\'
+ORDER BY `jenisPelaku` DESC
+ LIMIT 10', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `idPelaku` LIKE \'%F%\' ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `denda` LIKE \'%F%\' ESCAPE \'!\'
+ORDER BY `jenisPelaku` DESC
+ LIMIT 10')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `idPelaku` LIKE \'%F%\' ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE \'%F%\' ESCAPE \'!\'
+OR  `denda` LIKE \'%F%\' ESCAPE \'!\'
+ORDER BY `jenisPelaku` DESC
+ LIMIT 10')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `tblpelanggaran`
+JOIN `tblpelaku` ON `tblpelaku`.`idPelaku` =  `tblpelanggaran`.`idPelaku`
+WHERE `idPelanggaran` LIKE :idPelanggaran: ESCAPE \'!\'
+OR  `idPelaku` LIKE :idPelaku: ESCAPE \'!\'
+OR  `bentukPelanggaran` LIKE :bentukPelanggaran: ESCAPE \'!\'
+OR  `denda` LIKE :denda: ESCAPE \'!\'
+ORDER BY `jenisPelaku` DESC
+ LIMIT 10', [...], false)
+ 5 APPPATH\Models\PelanggaranModel.php(60): CodeIgniter\Database\BaseBuilder->get()
+ 6 APPPATH\Controllers\Pelanggaran.php(48): App\Models\PelanggaranModel->kategoriDisplay('F', '0', '10', [...], [...])
+ 7 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Pelanggaran->datajenispelanggaran()
+ 8 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pelanggaran))
+ 9 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 01:37:51 --> Invalid file: form/formTilang.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('form/formTilang.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('form/formTilang', [], true)
+ 3 APPPATH\Controllers\Home.php(54): view('form/formTilang')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:47:44 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:17 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:18 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:19 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:20 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:20 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:20 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:56 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:56 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:57 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:57 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:58 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:58 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 05:48:59 --> Undefined variable $FormM
+in APPPATH\Views\home\formTilang.php on line 390.
+ 1 APPPATH\Views\home\formTilang.php(390): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $FormM', 'APPPATH\\Views\\home\\formTilang.php', 390)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Home.php(54): view('home/formTilang')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->formtilang()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-22 19:55:19 --> mysqli_sql_exception: Table 'dbproject.barang' doesn't exist in C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\myproject\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\myproject\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\myproject\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\myproject\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\myproject\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\myproject\app\Controllers\Home.php(23): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\myproject\system\CodeIgniter.php(927): App\Controllers\Home->index()
+#8 C:\xampp\htdocs\myproject\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#9 C:\xampp\htdocs\myproject\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\myproject\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-12-22 19:55:19 --> Table 'dbproject.barang' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `barang`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `barang`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `barang`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `barang`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Home.php(23): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 20:30:33 --> Undefined variable $pelakuM
+in APPPATH\Views\home\formTilang.php on line 392.
+ 1 APPPATH\Views\home\formTilang.php(392): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\formTilang.php', 392)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:41:28 --> Undefined property: stdClass::$jenisPelaku
+in APPPATH\Views\home\formTilang.php on line 383.
+ 1 APPPATH\Views\home\formTilang.php(383): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$jenisPelaku', 'APPPATH\\Views\\home\\formTilang.php', 383)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:42:10 --> Undefined variable $pelakuM
+in APPPATH\Views\home\formTilang.php on line 382.
+ 1 APPPATH\Views\home\formTilang.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\formTilang.php', 382)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:44:01 --> Undefined variable $pelakuM
+in APPPATH\Views\home\formTilang.php on line 382.
+ 1 APPPATH\Views\home\formTilang.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\formTilang.php', 382)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(30): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:46:57 --> Undefined variable $pelakuM
+in APPPATH\Views\home\formTilang.php on line 382.
+ 1 APPPATH\Views\home\formTilang.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\formTilang.php', 382)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(31): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-22 23:47:01 --> Undefined variable $pelakuM
+in APPPATH\Views\home\formTilang.php on line 382.
+ 1 APPPATH\Views\home\formTilang.php(382): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pelakuM', 'APPPATH\\Views\\home\\formTilang.php', 382)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\home\\formTilang.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('home/formTilang', [], true)
+ 5 APPPATH\Controllers\Form.php(31): view('home/formTilang', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Form->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Form))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
