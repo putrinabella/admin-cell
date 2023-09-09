@@ -90,37 +90,4 @@ class UserModel extends Model
             'role' => $data['role']
         ]);
     }
-
-    // function searchAndDisplay2($katakunci = null, $start = 0, $length = 0)
-    // {
-    //     $db = \Config\Database::connect();
-    //     $builder = $db->table('tbluser');
-    //     if ($katakunci) {
-    //         $arr_katakunci = explode(" ", $katakunci);
-    //         for ($x = 0; $x < count($arr_katakunci); $x++) {
-    //             $builder = $builder->orLike('username', $arr_katakunci[$x]);
-    //             $builder = $builder->orLike('password', $arr_katakunci[$x]);
-    //             $builder = $builder->orLike('nama', $arr_katakunci[$x]);
-    //             $builder = $builder->orLike('role', $arr_katakunci[$x]);
-    //         }
-    //     }
-    //     if ($start != 0 or $length != 0) {
-    //         $builder = $builder->limit($length, $start);
-    //     }
-    //     return $builder->orderBy("username")->get()->getResult();
-    // }
-
-
-    // public function button()
-    // {
-    //     $action_button = function ($row) {
-    //         return '
-    // 			<button type="button" name="edit" class="btn btn-warning btn-sm edit" data-id="' . $row['username'] . '">Edit</button>
-    // 			&nbsp;
-    // 			<button type="button" class="btn btn-danger btn-sm delete" data-id="' . $row['username'] . '">Delete</button>
-    // 			';
-    //     };
-
-    //     return $action_button;
-    // }
 }
